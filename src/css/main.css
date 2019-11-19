@@ -143,18 +143,18 @@ a {
   text-decoration: none;
 }
 
-input:not([type="checkbox"]):not([type="radio"]),
+input:not([type='checkbox']):not([type='radio']),
 textarea {
   appearance: none;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
   margin: 0;
   appearance: none;
 }
 
-input[type="number"] {
+input[type='number'] {
   appearance: textfield;
 }
 
@@ -233,11 +233,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url("../img/background.png");
+  background-image: url('/img/background.png');
   background-color: #212240;
   background-position: top left;
   background-size: cover;
-  font-family: Avenir, "Avenir Next", "Segoe UI", sans-serif;
+  font-family: Avenir, 'Avenir Next', 'Segoe UI', sans-serif;
   font-weight: regular;
 }
 
@@ -287,12 +287,12 @@ h1 {
   margin-top: 32px;
 }
 
-[class*="col-"] {
+[class*='col-'] {
   display: flex;
   align-items: center;
 }
 
-[class*="col-"]:nth-child(n + 2) {
+[class*='col-']:nth-child(n + 2) {
   justify-content: center;
 }
 
@@ -393,7 +393,7 @@ input {
 
 .product .clear span:before,
 .product .clear span:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 8px;
   left: 2px;
@@ -475,7 +475,7 @@ input {
   font-weight: bold;
 }
 
-.summary button[type="submit"] {
+.summary button[type='submit'] {
   margin-top: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
